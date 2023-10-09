@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola EduSingularity</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Bem-vindo à Escola EduSingularity</h1>
+        <p>Preparando estudantes para um futuro brilhante</p>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Sobre Nós</h2>
+                <p>A Escola EduSingularity é dedicada a oferecer educação de qualidade e cultivar o potencial de cada estudante. Nossa missão é preparar os alunos para o sucesso em um mundo em constante transformação.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Programas</h2>
+                <ul>
+                    <li><strong>Ensino Fundamental:</strong> Construindo uma base sólida</li>
+                    <li><strong>Ensino Médio:</strong> Explorando novos horizontes</li>
+                    <li><strong>Ensino Superior:</strong> Preparando para o futuro</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+        <p>&copy; 2023 Escola EduSingularity</p>
+    </footer>
+
+    <!-- Bootstrap JS (Optional, if you want to use Bootstrap's JavaScript features) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js" integrity="sha384-A7FZj7v+d5C+5P5j5c5x5n5S5g5F5e5v5B5b5e5E5B5V5N5P5U5K5" crossorigin="anonymous"></script>
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "5ffa61ed-1d9e-4d9b-8328-6363085b21b0", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "451f51a7-991c-4300-a898-6a4182b0fcd6", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+</body>
+</html>
